@@ -97,14 +97,19 @@ background-color: black;
 }
 .contact-head h2{
 
-
-
 }
+
 .contact-info h2{
   color: black;
-
 }
 
 .footer {
+  background-color: black;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
 
+.footer h2 {
+  padding-left: 100px;
 }
