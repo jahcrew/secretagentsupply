@@ -20,7 +20,6 @@ html {
   width: 2rem;
   padding-right: 1rem;
   margin-left: 100px;
-
 }
 
 .banner {
@@ -83,17 +82,16 @@ html {
 .photos {
   border: 4px solid black;
   height: 15rem;
-
   margin: 3rem 1.5rem;
   /* width: 30%; */
   /* justify-content: center; */
 /*  adding img to this group fixes images but captions don't work with it*/
 }
+
 img  {
   width: 30%;
   height: 15rem;
 }
-
 
 .products h3{
   background-color: black;
@@ -118,8 +116,6 @@ padding-bottom: 1rem;
 padding-left: 2rem;
 padding-right: 2rem;
 text-align: center;
-
-
 }
 
 .location .hours {
@@ -131,7 +127,6 @@ text-align: center;
 .contacts .info{
   color: black;
   margin-bottom: 2rem;
-
 }
 
 .footer {
@@ -139,9 +134,25 @@ text-align: center;
   height: 5rem;
   display: flex;
   align-items: center;
-
 }
 
 .footer h2 {
   padding-left: 100px;
 }
+
+@media only screen and (max-width: 1024px){
+  .arrival  {
+    /* font-size: 0.5rem; */
+    margin-left: 0;
+    }
+  .arrival  {
+    /* font-size: 1rem; */
+    margin-left: 0;
+    }
+  .nav-section a {
+      display: none;
+    }
+  .photos{
+   width: 47%;
+    }
+  }
