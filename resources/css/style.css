@@ -3,7 +3,7 @@ html {
 }
 
 * {
-  font-family: Helvetica;
+  font-family: helvetica;
   color: white;
   font-size: 18px;
 }
@@ -97,7 +97,7 @@ img  {
   background-color: black;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  padding-left: 3rem;
+  text-align: center;
 }
 
 .contacts {
@@ -156,3 +156,47 @@ text-align: center;
    width: 47%;
     }
   }
+@media only screen and (max-width: 470px) {
+  .header {
+  }
+  .header  img {
+  }
+  .banner {
+    align-items: flex-end;
+    height: 15rem;
+  }
+  .arrival {
+    width: 100%;
+    margin-top: 10rem;
+    margin-bottom: 0;
+    height: 5rem;
+    padding-bottom: 0;
+  }
+  .arrival .h2{
+    font-size: 0.77rem;
+    padding-left: 2rem;
+  }
+  .arrival .h1 {
+    font-size: 1rem;
+    padding-left: 2rem;
+  }
+  .products h3 {
+
+  }
+  .contacts {
+    flex-direction: column;
+    width: 90%;
+    margin-top: 1rem;
+   }
+  .contacts  .heading {
+    text-align: left;
+    padding-right: 15rem;
+    align-items: flex-start;
+    /* margin-top: 0; */
+    /* width: 90%; */
+   }
+
+  .footer h2{
+    align-items: center;
+   }
+}
