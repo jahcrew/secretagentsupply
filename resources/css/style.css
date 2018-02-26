@@ -141,8 +141,8 @@ body, html {
   .products {
     width: 47%;
     }
-  /* can't figure out how to remove photo borders*/
-  .products .photos .glasses {
+  /* can't figure out how to remove photo borders - .photos hides all the photos and, and .glasses removes img and caption but not border*/
+  .photos  {
     display: none;
     }
   }
