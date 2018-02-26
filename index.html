@@ -14,9 +14,12 @@
     <link href="./resources/css/reset.css" type="text/css" rel="stylesheet" />
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet" />
   </head>
+
   <body>
+
        <!--Header Section-->
-  <div class="header"><img src="resources/images/logo.png"> SECRET AGENT SUPPLY INC.
+
+  <div class="header"><img src="resources/images/logo.png"> <span>SECRET AGENT SUPPLY INC.</span>
   </div>
   <div class="banner" id="vehicles">
     <div class="arrival">
@@ -24,52 +27,81 @@
     <p class="h1">SPORT BIKES AND MOTORCYCLES </p>
     </div>
   </div>
+
     <!-- Nav Section -->
+
   <div class="nav-section">
-  <nav class="links">
-    <!-- <p class="menu">Menu</p> -->
-  <a href=#eyewear>Eyewear</a>
-  <a href=#apparel>Apparel</a>
-  <a href=#gadgets>Gadgets</a>
-  <a href=#vehicles>Vehicles</a>
-  <a href=#classes>Classes</a>
-  <a href=#contact>Contact</a>
-  </nav>
+    <nav class="links">
+      <a href=#eyewear>Eyewear</a>
+      <a href=#apparel>Apparel</a>
+      <a href=#gadgets>Gadgets</a>
+      <a href=#vehicles>Vehicles</a>
+      <a href=#classes>Classes</a>
+      <a href=#contact>Contact</a>
+      <!-- added from Solution -->
+      <ul class="mobile-nav">
+        <li>Menu</li>
+      </ul>
+      <!--end  -->
+    </nav>
   </div>
+  <!-- nav section from Solution
+  <nav>
+    <ul class="container">
+      <li>Eyewear</li>
+      <li>Apparel</li>
+      <li>Gadgets</li>
+      <li>Vehicles</li>
+      <li>Classes</li>
+      <li>Contact</li>
+    </ul>
+    <ul class="mobile-nav container">
+      <li>Menu</li>
+    </ul>
+  </nav> -->
+
   <!-- Product Section -->
+
   <div class="products">
-    <!--make these h3 instead of figcap to align? -->
     <div class="photos"  id="eyewear" id="gadgets">
     <img src="resources/images/pen.png"/>
     <h3>Exploding Pen</h3>
-    <!-- <figcaption>Exploding Pen</figcaption> -->
+    <!--other ways to do this caption: 1) <span class="description">Exploding Pen</span> (from Solution)
+    2)<figcaption>Exploding Pen</figcaption> (from an earlier project)-->
     </div>
     <div class="photos" id="eyewear" id="gadgets">
-    <img src="resources/images/watch.png" />
-    <h3>Cellular Watch</h3>
-    <!-- <figcaption>Cellular Watch</figcaption> -->
+      <div class="watch">
+      <img src="resources/images/watch.png" />
+      <h3>Cellular Watch</h3>
+      <!-- <figcaption>Cellular Watch</figcaption> -->
+      </div>
     </div>
-    <div class="photos" class="glasses" id="eyewear" id="gadgets">
-    <img src="resources/images/glasses.png"/>
-    <h3>Thermal Glasses</h3>
-    <!-- <figcaption>Thermal Glasses</figcaption> -->
+    <div class="photos" id="eyewear" id="gadgets">
+      <div class="glasses">
+      <img src="resources/images/glasses.png"/>
+      <h3>Thermal Glasses</h3>
+      <!-- <figcaption>Thermal Glasses</figcaption> -->
+      </div>
     </div>
   </div>
+
   <!-- Contact Section -->
+
   <div class="contacts">
     <div class="location" id="contact">
       <div class="heading">Location</div>
       <div class="info">-47.346436, 84.32354</div>
     </div>
-
     <div class="hours" id="contact">
         <div class="heading">Hours</div>
         <div class="info">0800 - 1800</div>
     </div>
   </div>
+
   <!-- Footer Section -->
+
   <div class="footer">
-  <h2 class="copyright">Copyright Secret Agent Supply Inc.</h2>
+    <h2 class="copyright">Copyright Secret Agent Supply Inc.</h2>
   </div>
 </body>
 </html>
