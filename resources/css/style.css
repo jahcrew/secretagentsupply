@@ -142,7 +142,7 @@ body, html {
     width: 47%;
     }
   /* can't figure out how to remove photo borders - .photos hides all the photos and, and .glasses removes img and caption but not border*/
-  .photos  {
+  #glasses {
     display: none;
     }
   }
@@ -180,7 +180,7 @@ body, html {
     margin: 6.25rem 0.5rem;
   }
   /* can't figure out how to remove photo borders*/
-   .products .photos .watch{
+ #watch {
     display: none;
   }
   .products {
